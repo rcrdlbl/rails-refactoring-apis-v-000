@@ -29,7 +29,7 @@ gem 'pry'
 gem 'faraday'
 # Dot-env
 gem 'dotenv-rails'
-
+gem 'rb-readline'
 #Testing
 group :test do
   gem 'rspec-rails'
@@ -58,4 +58,3 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
